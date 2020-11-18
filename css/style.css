@@ -367,9 +367,15 @@ body {
     margin: 0 auto;
 }
 
+.gallery {
+    position: relative;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
 .swiper-button-next,
 .swiper-button-prev {    
-    position: relative;
+    position: absolute;
     background-color: #ECB84C;
     width: 40px;
     height: 40px;
@@ -377,14 +383,15 @@ body {
       
 }
 
+
 .swiper-button-next {
     bottom: 200px;
-    left: 0px;
+    right: -20px;
 }
 
 .swiper-button-prev {
     bottom: 200px;
-    left: 0px;
+    left: -20px;
 }
 
 .swiper-button-next::after {
